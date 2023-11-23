@@ -200,7 +200,9 @@ public:
 
 	std::string title = "Vulkan Example";
 	std::string name = "vulkanExample";
-	uint32_t apiVersion = VK_API_VERSION_1_0; // TODO vulkan version
+    // uint32_t apiVersion = VK_API_VERSION_1_0;
+    // uint32_t apiVersion = VK_API_VERSION_1_1;
+	uint32_t apiVersion = VK_API_VERSION_1_2; // TODO change vulkan version as needed
 
 	struct {
 		VkImage image;

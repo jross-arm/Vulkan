@@ -567,7 +567,7 @@ namespace vks
 	VkFormat VulkanDevice::getSupportedDepthFormat(bool checkSamplingSupport)
 	{
 		//TODO change pixel format for depth attachments here
-        return VK_FORMAT_X8_D24_UNORM_PACK32;
+        return 	VK_FORMAT_D16_UNORM;
 	}
 
 };
